@@ -1,0 +1,12 @@
+{
+  "name": "stanford-earth/ui_patterns",
+  "description": "Fork of early ui_patterns contrib module.",
+  "type": "stanford-module",
+  "homepage": "https://github.com/stanford-earth/ui-patterns",
+  "authors": [],
+  "license": "GPL-3.0+",
+  "minimum-stability": "dev",
+  "require": {
+      "composer/installers": "~1.0"
+  }
+}

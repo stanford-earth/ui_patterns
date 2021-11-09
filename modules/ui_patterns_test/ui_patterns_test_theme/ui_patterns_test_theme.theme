@@ -1,0 +1,169 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_blockquote_custom__ds_field_template__body__node__article__full(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_blockquote_custom__ds_field_template__body__node__article(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_blockquote_custom__ds_field_template__body__node(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_blockquote_custom__ds_field_template__body(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_metadata(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_metadata__field_group__group_metadata__node__article__full(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_metadata__field_group__group_metadata__node__article(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_metadata__field_group__group_metadata__node(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_metadata__field_group__group_metadata(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_button(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_button__ds_field_template__field_links__node__article__full(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_button__ds_field_template__field_links__node__article(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_button__ds_field_template__field_links__node(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_button__ds_field_template__field_links(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_media(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_media__views_row__articles__page_1(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_pattern_media__views_row__articles(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__metadata(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__field_group__group_metadata__node__article__full__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__field_group__group_metadata__node__full__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__field_group__group_metadata__node__article__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__field_group__group_metadata__node__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ui_patterns_test_theme_preprocess_patterns_destination__field_group__group_metadata__metadata__date(&$variables) {
+  \Drupal::messenger()->addMessage("Running: " . __FUNCTION__);
+}

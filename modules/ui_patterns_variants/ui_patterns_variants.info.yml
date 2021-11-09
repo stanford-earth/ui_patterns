@@ -1,0 +1,8 @@
+name: UI Patterns Variants
+description: Provide configurable variations for patterns.
+core_version_requirement: ^8 || ^9
+type: module
+package: User interface
+version: 8.x-1.0-dev
+dependencies:
+  - ui_patterns

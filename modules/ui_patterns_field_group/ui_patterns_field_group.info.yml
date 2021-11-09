@@ -1,0 +1,8 @@
+name: UI Patterns Field Group
+type: module
+description: Use patterns as field groups templates.
+core_version_requirement: ^8 || ^9
+package: User interface
+dependencies:
+  - field_group
+  - ui_patterns

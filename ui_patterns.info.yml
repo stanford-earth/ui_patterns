@@ -1,0 +1,7 @@
+name: UI Patterns
+type: module
+description: Provide configurable variations for patterns.
+core_version_requirement: ^8 || ^9
+package: Stanford
+version: 8.x-1.0-dev
+
