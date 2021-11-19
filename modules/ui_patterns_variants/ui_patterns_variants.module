@@ -486,6 +486,14 @@ function _ui_patterns_variants_entity_variant_value($entity, $variant_field) {
       if (is_array($value)) {
         $value = implode(' ', $value);
       }
+      else if ($entity_fields[$variant_field]->getType() == 'boolean') {
+        if (intval($value) == 0) {
+          $value = "false";
+        }
+        else {
+          $value = "true";
+        }
+      }
 
       $return_values[] = $value;
     }
